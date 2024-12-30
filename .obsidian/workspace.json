@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "f91634a8c55e807f",
+    "type": "split",
+    "children": [
+      {
+        "id": "56ede6e4b1c7896a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29016aef994a23c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Besoins/Service terminologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Service terminologies"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a79a18a1d5cb0c50",
+    "type": "split",
+    "children": [
+      {
+        "id": "3365982d862c18b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a699b6b9577258b8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1e211b7647a80365",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Individualisation",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "aae172a81b332b10",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5
+  },
+  "right": {
+    "id": "5a99aefea78ff201",
+    "type": "split",
+    "children": [
+      {
+        "id": "c03fb876ae57d180",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb708bda61aa07ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "48f02710c03d7ed2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b42b6f59795f27db",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "77cd561c7a99f193",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "0685b97ae3173f53",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "29016aef994a23c7",
+  "lastOpenFiles": [
+    "Anonymisation/Anonymisation-et-FHIR.pdf",
+    "Anonymisation/Plan rapport.md",
+    "Analytics/SQL on FHIR.md",
+    "BDD/Architecture.md",
+    "Gestion  projet/Planification-2024-12-30-09-07-56.png",
+    "Gestion  projet/Planification.md",
+    "Excalidraw/Architecture.md",
+    "Besoins/Service terminologies.md",
+    "Besoins/Entrepôt de données.md",
+    "Besoins/Annuaires.md",
+    "BDD/Resources & Versions.md",
+    "Anonymisation/Anonymizer.md",
+    "Anonymisation/HIPAA.md",
+    "Anonymisation/Anonymisation.md",
+    "Anonymisation/Implementation Guide/Implementation Guide.md",
+    "Analytics",
+    "Gestion  projet",
+    "Excalidraw",
+    "Besoins",
+    "BDD",
+    "Anonymisation/Légal/Anonymiser une donnée.md",
+    "Anonymisation/Open data - Guide - Données anonymes en santé.pptx.pdf",
+    "Anonymisation/Altérations/Généralisation.md",
+    "Anonymisation/Altérations/Types d'altération.md",
+    "Tâches.md",
+    "Présentation/Plan rapport.md",
+    "Présentation/Avant projet.md",
+    "Anonymisation/Légal/wp216_fr.pdf",
+    "Anonymisation/Implementation Guide",
+    "Anonymisation/Microsoft Tool.md",
+    "Excalidraw/Drawing 2024-09-03 12.00.52.excalidraw.md",
+    "Anonymisation/Altérations",
+    "2024-09-02.md",
+    "2024-09-03.md",
+    "Sans titre.canvas",
+    "Présentation/PlanAvantPFE.png"
+  ]
+}

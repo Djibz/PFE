@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2024-05-17T15:00:09.589Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="O3YAwOoB1All9Wf0dinb" version="24.4.3" type="device">
+  <diagram name="Page-1" id="djsT7HnaGVILhqOEj608">
+    <mxGraphModel dx="1509" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="720" as="sourcePoint" />
+            <mxPoint x="200" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="720" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;S2 2022&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;S1 2023&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;S2 2023&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;S1 2024&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Analyse du standard&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;fillStyle=zigzag;" vertex="1" parent="1">
+          <mxGeometry y="320" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Création générateur de ressources&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Mise en place de FHIR-Core dans Mediboard&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="295" y="530" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-18" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Création Parseur de ressources&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Analyse des solutions &amp;nbsp;existantes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;fillStyle=zigzag;" vertex="1" parent="1">
+          <mxGeometry y="520" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-20" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Création entrepôt de données&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Implémentation FHIR-Path&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-22" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Utilisation FHIR-Path dans MB&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="640" y="530" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Analyse du standard&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;fillStyle=zigzag;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hqcghnC40Nv8GYOkMqB-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Analyse des solutions &lt;b&gt;conversion&lt;/b&gt; existantes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;fillStyle=zigzag;" vertex="1" parent="1">
+          <mxGeometry x="780" y="530" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
