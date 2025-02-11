@@ -48,7 +48,7 @@ https://github.com/icanbwell/fhir-server?tab=readme-ov-file
 **MongoDB**
 
 Utilisation de MongoDB -> stockage des documents directement
-Utilise le model de ressources HAPI
+Utilise le model java de ressources HAPI
 
 **Avantages :**
 * Très rapide

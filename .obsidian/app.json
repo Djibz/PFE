@@ -1,6 +1,5 @@
 {
   "showInlineTitle": true,
-  "showRibbon": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",

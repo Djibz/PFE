@@ -35,3 +35,5 @@ Vise à créer des classes d'équivalence qui ressemblent à la distribution ini
 * #Individualisation :  Empêche l'individualisation
 * #Corrélation : Même situation au'avec seulement le k-anonymat -> proba que 2 entrées soient le meme individu > 1/N (N : Nombre de personnes dans la base de données)
 * #Inférence : Il n'est plus possible de faire des attaques par inférence avec un degré de certitude de *100%*
+## m-invatiance
+## teta safety

@@ -1,4 +1,3 @@
-# Avant mémoire
 
 ## Grands axes
 
