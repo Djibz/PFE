@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a0f5eebfb37a2d6",
+        "id": "7b95a1b347235e83",
         "type": "tabs",
         "children": [
           {
-            "id": "6330d30e9fa0f24b",
+            "id": "67786c3cd05267d2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Memoire/Planification.excalidraw.md"
+                "file": "Besoins/Annuaires.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Planification.excalidraw"
+              "icon": "lucide-file",
+              "title": "Annuaires"
             }
           }
         ]
@@ -170,52 +172,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "9562e293c79b3172",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ce2ab7e2693d490b",
-        "type": "window",
-        "children": [
-          {
-            "id": "cef2fc6fa78d35eb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2dd5e547be8ba380",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Memoire/Avant mémoire.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Avant mémoire"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1241,
-        "y": 451,
-        "width": 600,
-        "height": 600,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "a699b6b9577258b8",
+  "active": "67786c3cd05267d2",
   "lastOpenFiles": [
+    "Besoins/Entrepôt de données.md",
+    "Besoins/Service terminologies.md",
+    "EcoConception/Ressources.md",
+    "Memoire/Planification.excalidraw.md",
+    "EcoConception/Points spécifiques.md",
+    "EcoConception/Cache serveur.md",
+    "EcoConception/Fréquence MaJ.md",
+    "EcoConception/Subscription.md",
+    "Gestion projet/Planification-2024-12-30-09-07-56.png",
+    "EcoConception",
+    "Memoire/Untitled.md",
+    "Gestion projet/presentation-pfe-erwan-brunelliere.pdf",
+    "Besoins/Annuaires.md",
+    "Memoire/Avant mémoire.md",
+    "TODO.md",
     "Taches.md",
     "Vidéos ressources.md",
-    "Memoire/Planification.excalidraw.md",
     "Untitled.canvas",
-    "Memoire/Avant mémoire.md",
     "INterop.md",
     "INterop-2025-02-06-11-38-17.png",
     "Gestion projet/Organisation Produit.md",
@@ -226,26 +202,14 @@
     "BDD/Architectures.md",
     "Presentation/Plan rapport.md",
     "Presentation/Avant projet.md",
-    "Gestion projet/Planification-2024-12-30-09-07-56.png",
     "Anonymisation/Alterations/Generalisation.md",
     "Anonymisation/Alterations/Types d'alterations.md",
     "Anonymisation/Anonymisation-et-FHIR.pdf",
     "Anonymisation/Anonymisation.md",
-    "Anonymisation/Anonymizer.md",
-    "Besoins/Annuaires.md",
-    "Besoins/Service terminologies.md",
-    "Besoins/Entrepôt de données.md",
-    "Untitled",
-    "Anonymisation/Plan rapport.md",
     "Anonymisation/Open data Guide Donnes anonymes en sante.pptx.pdf",
-    "Anonymisation/HIPAA.md",
-    "Anonymisation/Implementation Guide/Implementation Guide.md",
-    "Généralisation.md",
     "BDD/Architectures.md~",
     "Memoire",
-    "Gestion projet/presentation-pfe-erwan-brunelliere.pdf",
     "Gestion projet/Avant mémoire.md~",
-    "Analytics/SQL on FHIR.md",
     "Anonymisation/Legal/wp216_fr.pdf",
     "Anonymisation/Legal/Anonymiser une donnée",
     "Anonymisation/Legal",

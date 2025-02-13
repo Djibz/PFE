@@ -14,8 +14,8 @@ https://ansforge.github.io/annuaire-sante-fhir-documentation/pages/changelog/cha
 **Ressources** *profilées* :
 - Practitioner
 - PractitionerRole
-- Person
-- Organization - *non utilisé par OX*
+- Organization
+- Person - *non utilisé par OX*
 - HealthCareService - *non utilisé par OX*
 - Device - *non utilisé par OX*
  
