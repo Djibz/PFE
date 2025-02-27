@@ -164,6 +164,8 @@ end
 @enduml
 ```
 
+Utilisation de Exist-db
+
 # Ressources historiques
 ## En tant que ressource actuelle
 Pas de stockage différent
