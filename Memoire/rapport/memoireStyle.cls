@@ -21,7 +21,9 @@
 
 %Graphics
 \usepackage{graphicx} % Required for inserting images
+\usepackage{transparent}
 \usepackage{eso-pic,graphicx}
+\usepackage{xcolor,sectsty}
 
 % FONTS
 % \usepackage{tgheros}
@@ -33,8 +35,18 @@
 \usepackage{authblk}
 \setlength{\affilsep}{1pt} %sep entre noms et affil
 
+\definecolor{softway-green}{RGB}{28, 82, 89}
+
+\chapterfont{\color{softway-green}}  % sets colour of chapters
+\sectionfont{\color{softway-green}}  % sets colour of sections
+
 \newcommand{\setStyle}{
     \AddToShipoutPictureBG{\includesvg[width=8cm]{images/dashes.svg}}
+}
+
+\newcommand*{\shifttext}[2]{%
+    \settowidth{\@tempdima}{#2}%
+    \makebox[\@tempdima]{\hspace*{#1}#2}%
 }
 
 % First page
@@ -43,21 +55,27 @@
     \makeatletter
 
     \begin{titlepage}
-        \AddToShipoutPictureBG*{\includesvg[width=12cm]{images/dashes.svg}}
+        \AddToShipoutPictureBG*{\includesvg[width=8cm]{images/dashes.svg}}
+        \AddToShipoutPictureBG*{
+            \transparent{0.4}{
+                \shifttext{-1cm}{\raisebox{+0.0\height}{\includegraphics[width=1.25\textwidth]{images/logos/FHIR.png}}}
+            }
+        }
         \centering
-        \includegraphics[width=0.3\textwidth]{images/logos/polytech.png}\hfill
-        \includegraphics[width=0.3\textwidth]{images/logos/xtrem.png}\hfill
-        \includegraphics[width=0.3\textwidth]{images/logos/itii.png}\vspace{3cm}
+        \includegraphics[height=1.5cm]{images/logos/polytech.png}\hfill
+        \includegraphics[height=1.5cm]{images/logos/xtrem-normal.png}\hfill
+        \includegraphics[height=1.5cm]{images/logos/itii-normal.png}\vspace{3cm}
 
 
 
-        {\scshape\LARGE Ecole Polytechnique de l'Université de Nantes\par}\vspace{1.5cm}
+        {\scshape\LARGE Ecole Polytechnique de l'Université de Nantes\par}\vspace{0.5cm}
+        {\scshape\Large Filière Ingéniérie des données et de l'intelligence artificielle\par}\vspace{1.5cm}
         {\scshape\Large Projet de fin d'étude\par}\vspace{1.5cm}
 
-        {\huge\bfseries \@title \par}\vspace{1cm}
+        {\huge\bfseries\color{softway-green} \@title \par}\vspace{1cm}
         \renewcommand\Authfont{\fontsize{16}{14.4}\selectfont}
-        \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}
-        {\@author}\vspace{2cm}
+        \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}\vspace{2cm}
+        {\@author}\vspace{3cm}
 
         \begin{minipage}{0.5\textwidth} % Minipage pour faire deux colonnes
             \begin{flushleft} \large % Envoyer à gauche
@@ -87,7 +105,7 @@
 
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{43pt}
-\fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{images/logos/xtrem.png}}}
+\fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{images/logos/xtrem-normal.png}}}
 \fancyhead[R]{\thepage}
 \fancyfoot[L]{
     {\scriptsize Groupe Softway Medical\par
