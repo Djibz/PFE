@@ -25,7 +25,10 @@
 
 % FONTS
 % \usepackage{tgheros}
-\renewcommand{\familydefault}{\sfdefault}
+% \renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{fontspec}
+\setmainfont{Tahoma}
 
 \usepackage{authblk}
 \setlength{\affilsep}{1pt} %sep entre noms et affil
@@ -43,8 +46,8 @@
         \AddToShipoutPictureBG*{\includesvg[width=12cm]{images/dashes.svg}}
         \centering
         \includegraphics[width=0.3\textwidth]{images/logos/polytech.png}\hfill
-        \includegraphics[width=0.3\textwidth]{images/logos/polytech.png}\hfill
-        \includegraphics[width=0.3\textwidth]{images/logos/polytech.png}\vspace{3cm}
+        \includegraphics[width=0.3\textwidth]{images/logos/xtrem.png}\hfill
+        \includegraphics[width=0.3\textwidth]{images/logos/itii.png}\vspace{3cm}
 
 
 
@@ -84,7 +87,7 @@
 
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{43pt}
-\fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{images/logos/polytech.png}}}
+\fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{images/logos/xtrem.png}}}
 \fancyhead[R]{\thepage}
 \fancyfoot[L]{
     {\scriptsize Groupe Softway Medical\par
