@@ -31,6 +31,8 @@
 
 \usepackage{fontspec}
 \setmainfont{Tahoma}
+\usepackage{setspace}
+\setstretch{1,15}
 
 \usepackage{authblk}
 \setlength{\affilsep}{1pt} %sep entre noms et affil
@@ -105,7 +107,7 @@
 
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{43pt}
-\fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{images/logos/xtrem-normal.png}}}
+% \fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{images/logos/xtrem-normal.png}}}
 \fancyhead[R]{\thepage}
 \fancyfoot[L]{
     {\scriptsize Groupe Softway Medical\par

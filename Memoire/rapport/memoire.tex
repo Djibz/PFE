@@ -1,8 +1,9 @@
-\documentclass{memoireStyle}
+\documentclass[11pt]{memoireStyle}
 
 \usepackage{titlesec}
 \usepackage{import}
 \usepackage{plantuml}
+\usepackage{shorttoc}
 
 \title{Réalisation et mise en production d'un entrepôt de données médicales}
 \author{Erwan Brunellière}
@@ -18,24 +19,58 @@
 
 \chapter*{Remerciements}
 \addcontentsline{toc}{chapter}{Remerciements}
+\import{elements}{remerciements.tex}
 
-\chapter*{Introduction}
-\addcontentsline{toc}{chapter}{Introduction}
+\chapter*{Notes du lecteur}
+\addcontentsline{toc}{chapter}{Notes du lecteur}
+\import{elements}{notes.tex}
 
-\tableofcontents
+\chapter*{Lexique}
+\addcontentsline{toc}{chapter}{Lexique}
+\import{elements}{lexique.tex}
+
+\shorttoc{Sommaire}{1}
+% =============
+% Développement 
+% =============
+
+\chapter{Introduction}
+\import{chapitres}{introduction.tex}
 
 \chapter{Création serveur de stockage}
 \import{chapitres}{scientifique.tex}
 
+\chapter{Ecoconception}
+\import{chapitres}{environnemental.tex}
 
 \chapter{Ajout d'une solution au processus de l'entreprise}
-
-\chapter{Ecoconception}
-\import{chapitres}{eco.tex}
+\import{chapitres}{organisation.tex}
 
 \chapter{Adoption de la norme}
+\import{chapitres}{humain.tex}
+
+\chapter{Conclusion}
+\import{chapitres}{conclusion.tex}
+
 
 \bibliographystyle{plain}
 \bibliography{biblio}
+\addcontentsline{toc}{chapter}{Bibliographie}
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table des matières}
+\listoftables
+\addcontentsline{toc}{chapter}{Liste des tableaux}
+\listoffigures
+\addcontentsline{toc}{chapter}{Table des figures}
+
+
+\chapter*{Annexes}
+\addcontentsline{toc}{chapter}{Annexes}
+\import{elements}{annexes.tex}
+
+\chapter*{Resume}
+\addcontentsline{toc}{chapter}{Resume / Abstract}
+\import{elements}{resume.tex}
+
 
 \end{document}
