@@ -1,6 +1,8 @@
 \documentclass{memoireStyle}
 
 \usepackage{titlesec}
+\usepackage{import}
+\usepackage{plantuml}
 
 \title{Réalisation et mise en production d'un entrepôt de données médicales}
 \author{Erwan Brunellière}
@@ -23,11 +25,13 @@
 \tableofcontents
 
 \chapter{Création serveur de stockage}
+\import{chapitres}{scientifique.tex}
+
 
 \chapter{Ajout d'une solution au processus de l'entreprise}
 
 \chapter{Ecoconception}
-\input{eco.tex}
+\import{chapitres}{eco.tex}
 
 \chapter{Adoption de la norme}
 

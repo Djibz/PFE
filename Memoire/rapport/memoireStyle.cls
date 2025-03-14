@@ -41,12 +41,12 @@
 \sectionfont{\color{softway-green}}  % sets colour of sections
 
 \newcommand{\setStyle}{
-    \AddToShipoutPictureBG{\includesvg[width=8cm]{images/dashes.svg}}
+    \AddToShipoutPictureBG{\transparent{0.05}\includesvg[width=8cm]{images/dashes.svg}}
 }
 
-\newcommand*{\shifttext}[2]{%
-    \settowidth{\@tempdima}{#2}%
-    \makebox[\@tempdima]{\hspace*{#1}#2}%
+\newcommand*{\shifttext}[2]{
+    \settowidth{\@tempdima}{#2}
+    \makebox[\@tempdima]{\hspace*{#1}#2}
 }
 
 % First page
@@ -55,7 +55,7 @@
     \makeatletter
 
     \begin{titlepage}
-        \AddToShipoutPictureBG*{\includesvg[width=8cm]{images/dashes.svg}}
+        \AddToShipoutPictureBG*{\transparent{0.1}\includesvg[width=8cm]{images/dashes.svg}}
         \AddToShipoutPictureBG*{
             \transparent{0.4}{
                 \shifttext{-1cm}{\raisebox{+0.0\height}{\includegraphics[width=1.25\textwidth]{images/logos/FHIR.png}}}
@@ -77,29 +77,29 @@
         \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}\vspace{2cm}
         {\@author}\vspace{3cm}
 
-        \begin{minipage}{0.5\textwidth} % Minipage pour faire deux colonnes
-            \begin{flushleft} \large % Envoyer à gauche
-                \textbf{Tuteur Industriel :} \par
+        \begin{minipage}{0.3\textwidth} % Minipage pour faire deux colonnes
+            \begin{center} \large % Envoyer à gauche
+                \textbf{Tuteur Industriel} \par
                 LAGADEC Yannick\par
-            \end{flushleft}
+            \end{center}
         \end{minipage}
+        \hspace{0.2\textwidth}
         ~
         \begin{minipage}{0.4\textwidth}
-            \begin{flushright} \large
-                \textbf{Référent Apprentissage :} \par
+            \begin{center} \large
+                \textbf{Référent Apprentissage} \par
                 ROYER Jean-Pierre \par
-            \end{flushright}
+            \end{center}
         \end{minipage}
         ~
         \par
         \vspace{0.5cm}
         \begin{minipage}{0.4\textwidth}
             \begin{center} \large
-                \textbf{Tutrice pédagogique :}\par % Pour le titre au dessus des noms à gauche
+                \textbf{Tutrice pédagogique}\par % Pour le titre au dessus des noms à gauche
                 EL-MAZOURI Fatima-Zara\par % Remplacer pour chacun
             \end{center}
         \end{minipage}
-
     \end{titlepage}
 }
 
