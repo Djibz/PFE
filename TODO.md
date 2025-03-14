@@ -1,13 +1,4 @@
-- [ ] Préparer soutenance
-	- [ ] Graphe
-	- [ ] Support
-	- [ ] Commencer à Rechercher contacts
-	- [ ] Commencer à Rechercher articles / Sources
-- [x] Rédiger visite entreprise 5 ✅ 2025-02-11
-- [x] Rédiger visite entreprise 6 ✅ 2025-02-11
-- [x] Envoyer grille compétence ✅ 2025-02-17
-	- [x] Remplir grille compétence ✅ 2025-02-11
-- [x] Mettre à jour CASUEL ✅ 2025-02-11
-- [x] Envoyer mail à Mme El-Mazouri ✅ 2025-02-11
+
 - [ ] Congés
-- [x] Planifier réunion XS-Platform/SF ✅ 2025-02-17
+- [ ] Devops Rudy FHIR Validator
+- [ ] Calendrier Alternance Léa REVEST
