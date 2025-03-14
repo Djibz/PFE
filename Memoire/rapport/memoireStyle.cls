@@ -32,7 +32,7 @@
 \usepackage{fontspec}
 \setmainfont{Tahoma}
 \usepackage{setspace}
-\setstretch{1,15}
+\setstretch{1.15}
 
 \usepackage{authblk}
 \setlength{\affilsep}{1pt} %sep entre noms et affil
@@ -79,15 +79,15 @@
         \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}\vspace{2cm}
         {\@author}\vspace{3cm}
 
-        \begin{minipage}{0.3\textwidth} % Minipage pour faire deux colonnes
+        \begin{minipage}{0.35\textwidth} % Minipage pour faire deux colonnes
             \begin{center} \large % Envoyer à gauche
                 \textbf{Tuteur Industriel} \par
                 LAGADEC Yannick\par
             \end{center}
         \end{minipage}
-        \hspace{0.2\textwidth}
+        \hspace{0.25\textwidth}
         ~
-        \begin{minipage}{0.4\textwidth}
+        \begin{minipage}{0.35\textwidth}
             \begin{center} \large
                 \textbf{Référent Apprentissage} \par
                 ROYER Jean-Pierre \par
