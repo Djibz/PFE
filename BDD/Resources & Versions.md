@@ -5,6 +5,16 @@ https://www.dragonflydb.io/guides/key-value-databases
 
 ### LevelDB
 ### RocksDB
+### TiKV
+BDD K/V  **CNCF Gratuated**
+Wrap pour protocole Redis ou MySQL
+#### TiDB
+Protocole MySQL
+
+### Redis
+Fork -> KeyDB (Snapchat)
+php-redis-om
+
 ### Dynamo
 License propriétaire
 ### Riak
