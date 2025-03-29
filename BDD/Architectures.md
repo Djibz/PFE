@@ -135,18 +135,32 @@ nosql --> Server
 
 ```plantuml
 @startuml
+!pragma teoz true
 participant Server
+box "May be only one DB" #White
+box "Might be only one DB"
 database "Registre SQL" as registre
-database "BD Doduments" as nosql
 database "BD K/V" as kv
+endbox
+database "BD Doduments" as nosql
+end box
+
 == Creation ==
-Server -> nosql: INSERT Document
-Server -> registre: INSERT Metadata
-Server -> kv: INSERT Document
+group#lightblue transaction
+	Server -> registre: INSERT Metadata
+	return id , vid
+	Server -> nosql: INSERT Document
+	Server -> kv: INSERT Raw
+end
+
 == Update ==
+group#lightblue transaction
 Server -> registre: UPDATE Metadata
+return vid
 Server -> nosql: **UPDATE** Document
-Server -> kv: INSERT Document
+Server -> kv: INSERT Raw
+end
+
 == Read ==
 Server -> registre: get last version
 registre --> Server: last version ID
@@ -161,6 +175,44 @@ else
     Server -> kv: GET by ID
     kv --> Server: Document
 end
+@enduml
+```
+
+#### All in One
+```plantuml
+@startuml
+node PostgreSQL {
+	database Registre
+	database KV
+	database Documents
+}
+@enduml
+```
+#### Document aside
+```plantuml
+@startuml
+node PostgreSQL {
+	database Registre
+	database Raw
+}
+node {
+	database MongoDB
+}
+@enduml
+```
+
+#### Distributed
+```plantuml
+@startuml
+node {
+	database PostgreSQL
+}
+node {
+	database TiKV
+}
+node {
+	database MongoDB
+}
 @enduml
 ```
 

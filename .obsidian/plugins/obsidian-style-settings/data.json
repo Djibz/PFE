@@ -1,3 +1,10 @@
 {
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz"
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz",
+  "ulu-theme-settings@@ulu-color-accent": "ulu-orange",
+  "ulu-theme-settings@@ulu-subtheme-selection": "ulu-gummy",
+  "ulu-theme-settings@@ulu-theme-dark": "ulu-accent-bg-d",
+  "ulu-theme-settings@@ulu-accent-title": true,
+  "ulu-theme-settings@@ulu-colorfo-headings": true,
+  "ulu-theme-settings@@ulu-radius": "var(--radius-l)",
+  "ulu-theme-settings@@ulu-theme-light": "ulu-con-l"
 }
