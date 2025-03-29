@@ -11,6 +11,9 @@
 \affil{Polytech Nantes}
 \date{Juillet 2025}
 
+\makenoidxglossaries
+\import{elements}{lexique.tex}
+
 \begin{document}
 
 \frontPage
@@ -25,11 +28,13 @@
 \addcontentsline{toc}{chapter}{Notes du lecteur}
 \import{elements}{notes.tex}
 
-\chapter*{Lexique}
-\addcontentsline{toc}{chapter}{Lexique}
-\import{elements}{lexique.tex}
+% \chapter*{Lexique}
+\addcontentsline{toc}{chapter}{Glossaire}
+\printnoidxglossaries
 
 \shorttoc{Sommaire}{1}
+\addcontentsline{toc}{chapter}{Sommaire}
+
 % =============
 % Développement 
 % =============
@@ -37,13 +42,14 @@
 \chapter{Introduction}
 \import{chapitres}{introduction.tex}
 
+% Une nouvelle norme pour bouleverser les habitudes ?
 \chapter{Adoption de la norme}
 \import{chapitres}{humain.tex}
 
 \chapter{Création serveur de stockage}
 \import{chapitres}{scientifique.tex}
 
-\chapter{Ecoconception}
+\chapter{Écoconception}
 \import{chapitres}{environnemental.tex}
 
 \chapter{Ajout d'une solution au processus de l'entreprise}

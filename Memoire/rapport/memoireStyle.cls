@@ -30,7 +30,7 @@
 % \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{fontspec}
-\setmainfont{Tahoma}
+\setmainfont{Arial}
 \usepackage{setspace}
 \setstretch{1.15}
 
@@ -41,6 +41,9 @@
 
 \chapterfont{\color{softway-green}}  % sets colour of chapters
 \sectionfont{\color{softway-green}}  % sets colour of sections
+
+\usepackage[acronym]{glossaries}
+
 
 \newcommand{\setStyle}{
     \AddToShipoutPictureBG{\transparent{0.05}\includesvg[width=8cm]{images/dashes.svg}}

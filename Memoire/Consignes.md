@@ -28,13 +28,13 @@
 * L'accroche
 * Présentation
   * sujet
-  * problèmatique
+  * problématique
   * questions traitées
 * L'annonce du plan
 
 ### Titres
 
-Titre *creux* : indique la focntion du paragraphe mais pas son contenu
+Titre *creux* : indique la fonction du paragraphe mais pas son contenu
 Titre *plein* : donne des elements essentiels
 
 ### Conclusion
@@ -51,13 +51,13 @@ Jury : 2 personnes
 * Second temps : Question du Jury
 
 30 min de présentation
-30 min de questions/réposnes
+30 min de questions/réponses
 10 min de délibération
 
 ### Attendu
 
 * Retour d'xp de son projet sur les champs de compétences d'un ingénieur
-* NE PAS RESUMER LE MEMOIRE
+* NE PAS RESUMER LE MÉMOIRE
 * Insister sur :
   * Ma contribution
   * Valeur ajoutée
