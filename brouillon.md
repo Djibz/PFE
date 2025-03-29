@@ -20,6 +20,6 @@
 - Branche stable
 - Création de releases
 - Informations sur la qualité du livrable
-- Information
+- Informations qualité du projet (git)
 - Consulter les anomalies du serveur
 - Consulter la charge du serveur

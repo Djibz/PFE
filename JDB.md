@@ -54,7 +54,7 @@
 	- Début création de toutes les features, US et tasks
 - Point avec Rudy
 	- S'occupe de presque toute l'intégration et déploiement continu
-	- FHIR Warehouse peut etre pilote SonarQube
+	- FHIR Warehouse peut être pilote SonarQube
 	- Utilisation d'openshift
 - FHIR Paging
 	- Pas de trace de [103 Early Hints](developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/103)
@@ -62,3 +62,15 @@
 - Subscription : impossible de mettre `\_include` (il faut de nouveau requeter l'endpoint)
 
 ## 27/03
+- Clé composite possible avec doctrine
+- Import MongoDB
+	- 5.8M fichiers `.json` -> Rust : conversion en 1 `.tsv` : ~15min
+	- mongoimport `.tsv` : ~10min (en même temps que le peuplement itératif)
+- US toutes définies pour l'API elle même
+- Il est possible d'utiliser les early hints dans le code php
+	- HttpClient -> utilisation de onHeader
+- [Message chat FHIR - Early Hint](https://chat.fhir.org/#narrow/channel/179166-implementers/topic/Early.20Hints)
+- Toutes les users story créées
+
+## 28/03
+- 103 Early hints ne semble pas très adapté à FHIR

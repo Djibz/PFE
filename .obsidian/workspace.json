@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brouillon.md",
+                "file": "JDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "brouillon"
+              "title": "JDB"
             }
           }
         ]
@@ -179,21 +179,21 @@
   },
   "active": "edb9056b3a2802e9",
   "lastOpenFiles": [
-    "JDB.md",
+    "Vidéos ressources.md",
+    "TODO.md",
+    "Taches.md",
+    "Reunions/Clement -> produit.md",
     "Reunions/Git.md",
     "brouillon.md",
+    "JDB.md",
     "Besoins/Annuaire de santé/Fonctionnalités.md",
     "Architecture/Architecture.md",
     "Architecture/Service PHP.md",
     "Besoins/Annuaire de santé/Cahier des charges.md",
     "Besoins/Cahier des charges FHIR.md",
-    "TODO.md",
-    "Reunions/Clement -> produit.md",
     "Architecture/FrankenPHP.md",
     "Reunions",
-    "Vidéos ressources.md",
     "GET.md",
-    "Taches.md",
     "Architecture/Observabilité.md",
     "Besoins/Service terminologies.md",
     "Besoins/Entrepôt de données.md",
