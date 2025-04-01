@@ -1,4 +1,4 @@
-\LoadClass[a4paper]{report} % Classe du document
+\LoadClass{report} % Classe du document
 \RequirePackage[a4paper, left=2.5cm,right=2.5cm,top=2cm,bottom=3.5cm]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -30,7 +30,8 @@
 % \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{fontspec}
-\setmainfont{Arial}
+\setmainfont{Tahoma}
+\usepackage[fontsize=12pt]{scrextend}
 \usepackage{setspace}
 \setstretch{1.15}
 
@@ -79,8 +80,8 @@
 
         {\huge\bfseries\color{softway-green} \@title \par}\vspace{1cm}
         \renewcommand\Authfont{\fontsize{16}{14.4}\selectfont}
-        \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}\vspace{2cm}
-        {\@author}\vspace{3cm}
+        \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}\vspace{1.5cm}
+        {\@author}\vspace{2cm}
 
         \begin{minipage}{0.35\textwidth} % Minipage pour faire deux colonnes
             \begin{center} \large % Envoyer à gauche
