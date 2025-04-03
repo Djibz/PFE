@@ -30,7 +30,7 @@
 % \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{fontspec}
-\setmainfont{Tahoma}
+\setmainfont{Effra Trial}
 \usepackage[fontsize=12pt]{scrextend}
 \usepackage{setspace}
 \setstretch{1.15}
@@ -80,7 +80,7 @@
 
         {\huge\bfseries\color{softway-green} \@title \par}\vspace{1cm}
         \renewcommand\Authfont{\fontsize{16}{14.4}\selectfont}
-        \renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}\vspace{1.5cm}
+        \renewcommand\Affilfont{\fontsize{12}{10.8}\itshape}\vspace{1.5cm}
         {\@author}\vspace{2cm}
 
         \begin{minipage}{0.35\textwidth} % Minipage pour faire deux colonnes
