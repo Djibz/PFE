@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "EcoConception/Points spécifiques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Points spécifiques"
+            }
+          },
+          {
+            "id": "6c7b4e5681ecaa30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "JDB.md",
                 "mode": "source",
                 "source": false
@@ -20,8 +34,35 @@
               "icon": "lucide-file",
               "title": "JDB"
             }
+          },
+          {
+            "id": "f9a9f97e42c56137",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JDB"
+            }
+          },
+          {
+            "id": "72f4fb7fb7d672e4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Architecture/BDDs.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "BDDs"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -177,27 +218,33 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "edb9056b3a2802e9",
+  "active": "72f4fb7fb7d672e4",
   "lastOpenFiles": [
-    "Memoire/rapport/elements/resume.tex",
-    "Memoire/rapport/elements/remerciements.tex",
-    "Memoire/rapport/elements/notes.tex",
-    "Memoire/rapport/elements/lexique.tex",
-    "Memoire/rapport/elements/annexes.tex",
-    "Memoire/rapport/chapitres/organisation.tex",
-    "Memoire/rapport/chapitres/introduction.tex",
-    "Memoire/rapport/chapitres/humain.tex",
-    "Memoire/rapport/chapitres/environnemental.tex",
-    "Memoire/rapport/chapitres/economique.tex",
-    "Memoire/rapport/chapitres/conclusion.tex",
-    "Besoins/Annuaires.md",
-    "Vidéos ressources.md",
+    "JDB.md",
+    "Architecture/BDDs.md",
+    "Point Yannick - Flo.md",
+    "Forum PHP.md",
+    "Memoire/rapport/fonts/Typographies.zip",
+    "Memoire/rapport/fonts",
+    "Memoire/rapport/memoire.w18",
+    "Memoire/rapport/out/memoire.synctex(busy)",
+    "Memoire/rapport/out/lualatex138224.fls",
+    "Memoire/rapport/indent.log",
+    "Memoire/rapport/__latexindent_temp_memoireStyle.cls",
+    "Memoire/rapport/out/lualatex138059.fls",
+    "Memoire/rapport/out/lualatex137876.fls",
+    "Memoire/rapport/out/lualatex135524.fls",
     "TODO.md",
     "Taches.md",
+    "EcoConception/Points spécifiques.md",
+    "EcoConception/Fréquence MaJ.md",
+    "EcoConception/Cache serveur.md",
+    "Memoire/rapport/chapitres/plan.md",
+    "Besoins/Annuaires.md",
+    "Vidéos ressources.md",
     "Reunions/Clement -> produit.md",
     "Reunions/Git.md",
     "brouillon.md",
-    "JDB.md",
     "Besoins/Annuaire de santé/Fonctionnalités.md",
     "Architecture/Architecture.md",
     "Architecture/Service PHP.md",
@@ -209,12 +256,6 @@
     "Besoins/Service terminologies.md",
     "Besoins/Entrepôt de données.md",
     "Architecture/Sécurité.md",
-    "BDD/Technos.md",
-    "BDD/Resources & Versions.md",
-    "BDD/OxPlatform vs from-scratch.md",
-    "BDD/Etat de l'art.md",
-    "BDD/Benches.md",
-    "BDD/Architectures.md",
     "Gestion projet/Planification-2024-12-30-09-07-56.png",
     "Untitled.canvas",
     "INterop-2025-02-06-11-38-17.png",

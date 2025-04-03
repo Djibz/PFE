@@ -74,3 +74,16 @@
 
 ## 28/03
 - 103 Early hints ne semble pas très adapté à FHIR
+
+## 31/03
+- phpcs
+	- Squiz.Strings.DoublelQuoteUsage
+- Avec Flo : Bien découper le code
+	- Un monorepo qui peut etre split
+	- Chaque produit peut etre un ensemble de modules
+- **FHIR-CORE** : fluent setters : renvoyer *static*
+
+## 01/04
+- API FHIR RPPS
+	- **Date début v2 : Avril 2025** (changement de l'info la veille)
+	- fin v1 : fin 2025
